@@ -358,6 +358,6 @@ if __name__ == '__main__':
   FLAGS.model_dir = "./model_dir"
   FLAGS.data_dir = "./imagenette2"
   FLAGS.model_name = "efficientnetv2-b0"
-  FLAGS.dataset_cfg = "cifar10ft" #changed from carsft
+  FLAGS.dataset_cfg = "carsft" #changed from carsft
   # FLAGS.data_dir = "/Users/diegoaguirre/tensorflow_datasets/"
   app.run(main)
