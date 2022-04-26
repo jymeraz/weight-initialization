@@ -36,3 +36,4 @@ def define_flags():
   flags.DEFINE_string('model_dir', None, 'Dir for checkpoint and summaries.')
   flags.DEFINE_string('mode', 'train', 'One of {"train", "eval"}.')
   flags.DEFINE_bool('export_to_tpu', False, 'Export metagraph.')
+  flags.DEFINE_string('f', '', 'kernel')
